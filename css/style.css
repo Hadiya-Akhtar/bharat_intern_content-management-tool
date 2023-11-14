@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Playpen+Sans&family=Poppins:wght@100&display=swap');
+#index_bg{
+    margin: 0;
+    padding: 0;
+    background-image: url("/bharat_intern1/img/grass.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    overflow: hidden;
+}
+h1{
+    align-content: center;
+    margin-left: 600px;
+    margin-top: 70px;
+    text-decoration: green;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Playpen Sans', cursive;
+    /*font-family: 'Poppins', sans-serif;*/
+}
+.navbar{
+    margin-top: 300px;
+    margin-left: 30%;
+}
+ul li{
+        list-style-type: none;
+        display: inline-flex;
+        flex-direction: column;
+        padding: 30px;
+        font-size: 24px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid rgb(4, 66, 4);
+    border-radius: 10px;
+    background-color: rgb(4, 44, 4);
+    padding: 8px 18px 8px 18px;
+
+}
+a:hover{
+    font-size: 18px;
+    color: white;
+}
+/*for other pages navbar*/
+.navbar_for_others{
+    margin-left: 50%;
+    font-size: 20px;
+}
+/*login page css*/
+.container{
+    margin-top: 100px;
+    border: 0.5px solid black;
+}
+.form_group{
+    padding: 10px;
+    margin: 10px;
+}
+.form-btn{
+    padding: 10px;
+    margin: 10px;
+}
+.sign{
+    padding: 10px;
+    margin: 10px;
+}
+/*for create.php page*/
+.post-title {
+    font-size: 24px;
+ }
